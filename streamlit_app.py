@@ -47,7 +47,7 @@ if st.button("Hitung Titik Sampling"):
 
         hasil = []
 
-       for i in range(1, jumlah_titik + 1):
+       for i in range(1, jumlah_titik+1):
         posisi = radius * math.sqrt((i - 0.5) / jumlah_titik)
         jarak_dari_tepi = round(radius - posisi, 3)
         hasil.append(jarak_dari_tepi)
