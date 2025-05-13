@@ -11,8 +11,8 @@ st.write("""
 Aplikasi ini akan menghitung lokasi titik sampling cerobong berdasarkan diameter dan jarak terhadap gangguan aliran sesuai standar metode 1 isokinetik.
 """)
 
-#Navigasi halaman
-halaman = st.sidebar.selectbox("Navigasi", ["Penjelasan & Informasi", "Kalkulator Titik sampling"])
+#Navigasi menggunakan radio button
+halaman = st.radio("Pilih Halaman", ["Penjelasan & Informasi", "Kalkulator Titik sampling"])
 
 if halaman == "Penjelasan & Informasi":
     st.title("Informasi Mengenai sampling Emisi Tidak Bergerak")
