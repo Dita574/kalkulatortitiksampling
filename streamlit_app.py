@@ -38,8 +38,8 @@ if halaman == "Penjelasan & Informasi":
     """)
     
 elif halaman == "Kalkulator Titik Sampling":
-   st.title("Kalkulator Titik Sampling Cerobong Secara Isokinetik")
-
+    st.title("Kalkulator Titik Sampling Cerobong Secara Isokinetik")
+    
     st.markdown("""
     Penentuan titik sampling dilakukan berdasarkan metode equal area, membagi luas penampang cerobong menjadi beberapa bagian sama.
     Rumus dasar:
