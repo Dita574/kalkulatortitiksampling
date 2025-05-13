@@ -5,7 +5,7 @@ st.set_page_config(page_title="Metode 1 Isokinetik Pada Emisi Tidak Bergerak", l
 
 # Title
 st.title("📏 Kalkulator Titik Sampling Pada Emisi Tidak Bergerak 💨")
-st.header(":blue[Metode 1 - Isokinetik Sampling]")
+st.header(":green[Metode 1 - Isokinetik Sampling]")
 
 st.write("""
 Aplikasi ini akan menghitung lokasi titik sampling cerobong berdasarkan diameter dan jarak terhadap gangguan aliran sesuai standar metode 1 isokinetik.
