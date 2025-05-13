@@ -42,7 +42,6 @@ elif halaman == "Kalkulator Titik Sampling":
 
     st.markdown("""
     Penentuan titik sampling dilakukan berdasarkan metode equal area, membagi luas penampang cerobong menjadi beberapa bagian sama.
-
     Rumus dasar:
     \[ r_i = R \sqrt{\frac{i}{n}} \]
     \[ d_i = R - r_i \]
