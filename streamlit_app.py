@@ -11,7 +11,7 @@ st.caption("🔬 Berdasarkan Metode 1 - Isokinetik (Equal Area)")
 
 #Gambar
 import streamlit as st
-st.image("https://adhikarilab.co.id/wp-content/uploads/2024/04/Pengambilan-Sampel-Partikulat-Secara-Isokinetik-di-Cerobong-Industri-1-1080x600.webp", caption="Sampling pada cerobong")
+st.image("https://adhikarilab.co.id/wp-content/uploads/2024/04/Pengambilan-Sampel-Partikulat-Secara-Isokinetik-di-Cerobong-Industri-1-1080x600.webp", caption="Sumber : adhikarilab.co.id")
 
 # Sidebar Navigasi
 with st.sidebar:
