@@ -9,6 +9,10 @@ st.set_page_config(page_title="Kalkulator Sampling Emisi Isokinetik", layout="ce
 st.title("📏 Kalkulator Titik Sampling Emisi Tidak Bergerak")
 st.caption("🔬 Berdasarkan Metode 1 - Isokinetik (Equal Area)")
 
+#Gambar
+import streamlit as st
+st.image("https://www.bing.com/images/search?view=detailV2&ccid=Y%2bQAHtIQ&id=B2C2D37243104FA5184E454673173E8EB91477B4&thid=OIP.Y-QAHtIQHxWCIC7lfR5EXgHaEH&mediaurl=https%3a%2f%2fadhikarilab.co.id%2fwp-content%2fuploads%2f2024%2f04%2fPengambilan-Sampel-Partikulat-Secara-Isokinetik-di-Cerobong-Industri-1-1080x600.webp&exph=600&expw=1080&q=sampling+cerobong+isokinetik&simid=608002928778747513&FORM=IRPRST&ck=1FF7C40AC6E674BC858E3B1DF1C56EEB&selectedIndex=8&itb=0", caption="Sampling pada cerobong")
+
 # Sidebar Navigasi
 with st.sidebar:
     st.header("📂 Navigasi Halaman")
